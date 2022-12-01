@@ -1,0 +1,3 @@
+/Users/anastasiaspileva/CLionProjects/bip_buffer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/anastasiaspileva/CLionProjects/bip_buffer/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/anastasiaspileva/CLionProjects/bip_buffer/cmake-build-debug/CMakeFiles/bip_buffer.dir
