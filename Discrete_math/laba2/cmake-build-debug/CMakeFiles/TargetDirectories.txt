@@ -1,0 +1,3 @@
+/Users/anastasiaspileva/CLionProjects/laba_dm2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/anastasiaspileva/CLionProjects/laba_dm2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/anastasiaspileva/CLionProjects/laba_dm2/cmake-build-debug/CMakeFiles/laba_dm2.dir

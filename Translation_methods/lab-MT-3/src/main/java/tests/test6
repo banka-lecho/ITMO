@@ -1,0 +1,12 @@
+kkk :: Integer -> Integer
+kkk a | a == 1 = a + a + 1
+kkk a = a + a
+
+rrr :: Integer -> Integer
+rrr a | a < 2 = a + a
+rrr a | a > 10 = a + a + 1
+
+ttt :: Double -> Integer
+ttt a | a <= 4 = a + a
+ttt a | a > 4 = a + a + 1
+ttt a | a >= 10 = a + a + 2

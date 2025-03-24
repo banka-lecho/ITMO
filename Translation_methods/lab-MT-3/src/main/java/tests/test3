@@ -1,0 +1,7 @@
+smth :: Integer -> Integer -> Integer
+
+good :: String -> String -> String
+
+bad :: Double -> Double -> Double
+
+red :: Integer -> Integer -> Double

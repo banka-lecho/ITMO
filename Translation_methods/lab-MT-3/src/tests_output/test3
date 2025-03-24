@@ -1,0 +1,14 @@
+#include <iostream>
+
+integer smth(integer k2, integer k1) {
+}
+
+string good(string k2, string k1) {
+}
+
+double bad(double k2, double k1) {
+}
+
+double red(integer k2, integer k1) {
+}
+

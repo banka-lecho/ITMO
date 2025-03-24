@@ -1,0 +1,16 @@
+T__0=1
+T__1=2
+T__2=3
+T__3=4
+CODE=5
+VAR=6
+VARACC=7
+TOKEN=8
+NONTERM=9
+STRING_RULE=10
+REGEX_RULE=11
+WS=12
+':='=1
+'|'=2
+';'=3
+'='=4

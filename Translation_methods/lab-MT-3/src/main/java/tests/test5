@@ -1,0 +1,5 @@
+doo :: String -> String
+doo a = a + a
+
+hoo :: Integer -> Double
+hoo a = a + a

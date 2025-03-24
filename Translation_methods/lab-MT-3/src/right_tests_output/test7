@@ -1,0 +1,62 @@
+#include <iostream>
+
+string concat(string k2, string k1) {
+  string s1 = k1;
+  string s2 = k2;
+  if (true && true) {
+    return s1+s2;
+  }
+  return;
+}
+
+
+double rrr(integer k2, integer k1) {
+  double s1 = k1;
+  integer s2 = k2;
+  if (true && true) {
+    return s1+s2;
+  }
+  return;
+}
+
+
+double www(integer k2, integer k1) {
+  double s1 = k1;
+  integer s2 = k2;
+  if (true && true) {
+    return s1-s2;
+  }
+  return;
+}
+
+
+double ppp(integer k2, integer k1) {
+  double s1 = k1;
+  integer s2 = k2;
+  if (true && true) {
+    return s1/s2;
+  }
+  return;
+}
+
+
+double qqq(integer k2, integer k1) {
+  double s1 = k1;
+  integer s2 = k2;
+  if (true && true) {
+    return s1*s2;
+  }
+  return;
+}
+
+
+double mod(integer k2, integer k1) {
+  double s1 = k1;
+  integer s2 = k2;
+  if (true && true) {
+    return s1%s2;
+  }
+  return;
+}
+
+

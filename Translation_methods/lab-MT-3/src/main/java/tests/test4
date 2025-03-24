@@ -1,0 +1,8 @@
+fff :: Integer
+fff = 1 - 2 - 3
+
+hhh :: Double
+hhh = 1.2 + 1.3 + 1.00004
+
+xxx :: Bool
+xxx = true

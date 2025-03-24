@@ -1,0 +1,20 @@
+#include <iostream>
+
+integer fff() {
+  return 1-2-3;
+  return;
+}
+
+
+double hhh() {
+  return 1.2+1.3+1.00004;
+  return;
+}
+
+
+bool xxx() {
+  return true;
+  return;
+}
+
+

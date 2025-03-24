@@ -1,0 +1,46 @@
+#include <iostream>
+
+integer gcd(integer k2, integer k1) {
+  integer a = k1;
+  integer b = k2;
+  if (b==0 && true) {
+    return a;
+  }
+  integer a = k1;
+  integer b = k2;
+  if (true && true) {
+    return gcd(a%b,b);
+  }
+}
+
+double mult(double k2, double k1) {
+  double a = k1;
+  double b = k2;
+  if (b<=0 && true) {
+    return a;
+  }
+  double a = k1;
+  double b = k2;
+  if (a>=10 && true) {
+    return mult(a*b*a,a);
+  }
+  double a = k1;
+  double b = k2;
+  if (true && true) {
+    return mult(a*b*a,a)+1;
+  }
+}
+
+double cult(double k2, double k1) {
+  double a = k1;
+  double b = k2;
+  if (b==0 && true) {
+    return a;
+  }
+  double a = k1;
+  double b = k2;
+  if (a==1 && true) {
+    return cult(a*b*a,a);
+  }
+}
+

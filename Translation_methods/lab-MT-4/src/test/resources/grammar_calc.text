@@ -1,0 +1,31 @@
+$double val = 0;
+#double acc = 0;
+
+main := t {double old = acc; acc = children.get(0).val;} e2 {result.val = children.get(1).val; acc = old;};
+
+e2 := {result.val = acc;}
+ | PLUS t {double old = acc; acc = acc + children.get(1).val;} e2 {result.val = children.get(2).val; acc = old;}
+ | MINUS t {double old = acc; acc = acc - children.get(1).val;} e2 {result.val = children.get(2).val; acc = old;};
+t := f {double old = acc; acc = children.get(0).val;} t2 {result.val = children.get(1).val; acc = old;};
+t2 := {result.val = acc;}
+ | MUL f {double old = acc; acc = acc * children.get(1).val;} t2 {result.val = children.get(2).val; acc = old;}
+ | DIV f {double old = acc; acc = acc / children.get(1).val;} t2 {result.val = children.get(2).val; acc = old;};
+f := OPNPRTH main CLPRTH {result.val = children.get(1).val;}
+ | NUM {result.val = Integer.parseInt(children.get(0).getName());}
+ | MOD main MOD {result.val = Math.abs(children.get(1).val);}
+ | SIN OPNPRTH main CLPRTH {result.val = Math.round(Math.sin(children.get(2).val));}
+ | COS OPNPRTH main CLPRTH {result.val = Math.round(Math.cos(children.get(2).val));}
+ | TAN OPNPRTH main CLPRTH {result.val = Math.round(Math.tan(children.get(2).val));}
+ | MINUS f {result.val = -children.get(1).val;};
+
+PLUS = '+';
+MINUS = '-';
+DIV = '/';
+MUL = '*';
+CLPRTH = ')';
+OPNPRTH = '(';
+MOD = '|';
+SIN = 'sin';
+COS = 'cos';
+TAN = 'tan';
+NUM = "(-)*[0-9]+";

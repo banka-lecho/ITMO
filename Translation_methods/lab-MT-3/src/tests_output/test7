@@ -1,0 +1,26 @@
+#include <iostream>
+
+integer sum(integer k1) {
+  integer x = k1;
+  integer xa = x + x;
+  return xa + xa;
+}
+
+integer mult(integer k1) {
+  integer x = k1;
+  integer xa = x * x;
+  return xa * xa;
+}
+
+integer div(integer k1) {
+  integer x = k1;
+  integer xa = x + x;
+  return xa / xa;
+  return;
+}
+
+integer one(integer k1) {
+  integer x = k1;
+  integer xa = x + x;
+  return xa;
+}

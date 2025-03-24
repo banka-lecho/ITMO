@@ -1,0 +1,16 @@
+#include <iostream>
+
+string doo(string k1) {
+  string a = k1;
+  if (true) {
+    return a+a;
+  }
+}
+
+double hoo(integer k1) {
+  double a = k1;
+  if (true) {
+    return a+a;
+  }
+}
+

@@ -1,0 +1,14 @@
+main := t ePrime;
+ePrime := OR t ePrime | XOR t ePrime;
+t := f tPrime;
+tPrime := AND f tPrime;
+f := NOT f | s;
+s := VAR | OPNPRTH main CLPRTH;
+
+OPNPRTH = '(';
+CLPRTH = ')';
+AND = 'and';
+OR = 'or';
+XOR = 'xor';
+NOT = 'not';
+VAR = "[a-zA_Z_][a-zA_Z0-9_]*";

@@ -1,0 +1,3 @@
+/Users/anastasiaspileva/ITMO/Algorithms and data structures/lab_algosi2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/anastasiaspileva/ITMO/Algorithms and data structures/lab_algosi2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/anastasiaspileva/ITMO/Algorithms and data structures/lab_algosi2/cmake-build-debug/CMakeFiles/lab_algosi2.dir

@@ -1,0 +1,17 @@
+sum :: Integer -> Integer
+sum x = let xa = x * x in xa + xa
+
+mult :: Integer -> Integer
+mult x =
+    let xa = x * x
+    in xa * xa
+
+div :: Integer -> Integer
+div x =
+    let xa = x + x
+    in xa / xa
+
+one :: Integer -> Integer
+one x =
+    let xa = x + x
+    in xa

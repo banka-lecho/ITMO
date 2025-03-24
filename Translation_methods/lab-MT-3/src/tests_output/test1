@@ -1,0 +1,28 @@
+#include <iostream>
+
+integer fac(integer k1) {
+  integer n = k1;
+  if (n==0) {
+    return 1;
+  }
+  integer n = k1;
+  if (n>0) {
+    return n*fac(n-1);
+  }
+}
+
+integer secondFac(integer k1) {
+  integer n = k1;
+  if (n==0) {
+    return 1;
+  }
+  integer n = k1;
+  if (n>0) {
+    return n*fac(n-1);
+  }
+  integer n = k1;
+  if (n<0) {
+    return n*fac(n+1);
+  }
+}
+

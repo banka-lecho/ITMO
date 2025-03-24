@@ -1,0 +1,12 @@
+gcd :: Integer -> Integer -> Integer
+gcd a, b | b == 0 = a
+gcd a, b = gcd(a % b , b)
+
+mult :: Double -> Double -> Double
+mult a, b | b <= 0 = a
+mult a, b | a >= 10 = mult(a * b * a, a)
+mult a, b = mult(a * b * a, a) + 1
+
+cult :: Double -> Double -> Double
+cult a, b | b == 0 = a
+cult a, b | a == 1 = cult(a * b * a, a)

@@ -1,0 +1,33 @@
+digraph Grammar {
+"E0"[label="E"]
+"E0"->"T1"->"K2"->"F3"->"S4"->"var5"
+"var5"[label="var"]
+"S4"[label="S"]
+"K2"->"K'8"->"=>9"
+"K'8"->"F10"->"S11"->"var12"
+"var12"[label="var"]
+"S11"[label="S"]
+"K'8"->"K'15"->"=>16"
+"K'15"->"F17"->"S18"->"var19"
+"var19"[label="var"]
+"S18"[label="S"]
+"K'15"->"K'22"->"eps23"
+"eps23"[label="eps"]
+"=>16"[label="=>"]
+"F17"[label="F"]
+"K'22"[label="K'"]
+"=>9"[label="=>"]
+"F10"[label="F"]
+"K'15"[label="K'"]
+"F3"[label="F"]
+"K'8"[label="K'"]
+"T1"->"T'28"->"eps29"
+"eps29"[label="eps"]
+"K2"[label="K"]
+"T'28"[label="T'"]
+"E0"->"E'32"->"eps33"
+"eps33"[label="eps"]
+"T1"[label="T"]
+"E'32"[label="E'"]
+label="test: a => b => c"
+}

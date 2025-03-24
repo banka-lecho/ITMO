@@ -1,0 +1,45 @@
+#include <iostream>
+
+integer kkk(integer k1) {
+  integer a = k1;
+  if (a==1) {
+    return a+a+1;
+  }
+  integer a = k1;
+  if (true) {
+    return a+a;
+  }
+  return;
+}
+
+
+integer rrr(integer k1) {
+  integer a = k1;
+  if (a<2) {
+    return a+a;
+  }
+  integer a = k1;
+  if (a>10) {
+    return a+a+1;
+  }
+  return;
+}
+
+
+integer ttt(double k1) {
+  integer a = k1;
+  if (a<=4) {
+    return a+a;
+  }
+  integer a = k1;
+  if (a>4) {
+    return a+a+1;
+  }
+  integer a = k1;
+  if (a>=10) {
+    return a+a+2;
+  }
+  return;
+}
+
+
